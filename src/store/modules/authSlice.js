@@ -28,8 +28,6 @@ export const authSlice = createSlice({
             state.authed = true;
             state.user = {
                 loginId: action.payload.loginId,
-                name: action.payload.name,
-                email: action.payload.email,
             };
         },
         loginSuccess: (state, action) => {
