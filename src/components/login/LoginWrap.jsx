@@ -83,7 +83,6 @@ const LoginWrap = ({ onClose }) => {
                     success: (res) => {
                         const user = {
                             id: res.id,
-                            email: res.kakao_account.email,
                         };
                         dispatch(
                             authActions.login({
