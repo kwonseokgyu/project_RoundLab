@@ -76,7 +76,6 @@ const LoginWrap = ({ onClose }) => {
         }
 
         window.Kakao.Auth.login({
-            scope: 'profile_nickname, account_email',
             success: (authObj) => {
                 console.log('카카오 로그인 성공:', authObj);
                 window.Kakao.API.request({
