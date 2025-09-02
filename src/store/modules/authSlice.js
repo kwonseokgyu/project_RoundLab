@@ -5,7 +5,6 @@ const memberData = [
         id: 1,
         name: 'af',
         tel: '010-1111-2222',
-        email: 'abc@naver.com',
         password: 'a1234',
         loginId: 'af',
     },
